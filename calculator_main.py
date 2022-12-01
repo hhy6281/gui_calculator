@@ -109,6 +109,7 @@ class Ui_MainWindow(object):
         self.pushButton_18.setText(_translate("MainWindow", "Del"))
         self.label.setText(_translate("MainWindow", ""))
 
+        
         # adding action to each of the button
         self.pushButton_15.clicked.connect(self.action_minus)
         self.pushButton_16.clicked.connect(self.action_equal)
